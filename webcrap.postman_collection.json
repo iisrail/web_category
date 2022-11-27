@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "0fa5e12e-27de-4db6-add7-83f3fedbd235",
+		"name": "webcrap",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "webcrap",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pathes\":[\t\t\t\r\n        \"http://www.msn.com/en-nz/travel/tripideas/70-of-the-planets-most-breathtaking-sights/ss-AAIUpDp\",\r\n\t\t\"https://www.radiosport.co.nz/sport-news/rugby/accident-or-one-last-dig-eddie-jones-reveals-hansens-next-job/\",\r\n\t\t\"https://www.glamour.de/frisuren/frisurenberatung/haarschnitte\",\r\n\t\t\"https://www.bbc.com\",\r\n\t\t\"https://www3.forbes.com/business/2020-upcoming-hottest-new-vehicles/13/?nowelcome\",\r\n\t\t\"https://www.tvblog.it/post/1681999/valerio-fabrizio-salvatori-gli-inseparabili-chi-sono-pechino-express-2020\",\r\n\t\t\"http://edition.cnn.com/\"\t\r\n        ]\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/pullin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"pullin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pull starwar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pathes\":[\t\t\t\r\n        \"http://www.msn.com/en-nz/travel/tripideas/70-of-the-planets-most-breathtaking-sights/ss-AAIUpDp\",\r\n\t\t\"https://www.radiosport.co.nz/sport-news/rugby/accident-or-one-last-dig-eddie-jones-reveals-hansens-next-job/\",\r\n\t\t\"https://www.glamour.de/frisuren/frisurenberatung/haarschnitte\",\r\n\t\t\"https://www.bbc.com\",\r\n\t\t\"https://www3.forbes.com/business/2020-upcoming-hottest-new-vehicles/13/?nowelcome\",\r\n\t\t\"https://www.tvblog.it/post/1681999/valerio-fabrizio-salvatori-gli-inseparabili-chi-sono-pechino-express-2020\",\r\n\t\t\"http://edition.cnn.com/\"\t\r\n        ]\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/pullin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"pullin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "web category",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pages\":[\t\t\t\r\n        \"http://www.starwars.com\",\r\n\t\t\"https://www.radiosport.co.nz/sport-news/rugby/accident-or-one-last-dig-eddie-jones-reveals-hansens-next-job/\",\r\n\t\t\"https://www.bbc.com\",\r\n\t\t\"https://www3.forbes.com/business/2020-upcoming-hottest-new-vehicles/13/?nowelcome\",\r\n\t\t\"https://www.tvblog.it/post/1681999/valerio-fabrizio-salvatori-gli-inseparabili-chi-sono-pechino-express-2020\",\r\n\t\t\"http://edition.cnn.com/\"\t\r\n        ],\r\n        \"categories\":[\"Basketball\", \"Star Wars\"]\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/categorize",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"categorize"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
